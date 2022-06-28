@@ -134,7 +134,7 @@ class CartPage extends StatelessWidget {
                                 color: Colors.black,
                               ),
                               title: Text(
-                                "hi",
+                                "${data.map((e) => Text("${e.entries.length}")).toList()}",
                                 style: TextStyle(
                                     fontSize: 20, color: Colors.black),
                               ),
